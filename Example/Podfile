@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EJToast_Example' do
+  pod 'EJToast', :path => '../'
+
+  target 'EJToast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
