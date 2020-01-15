@@ -1,0 +1,16 @@
+PODS:
+  - EJToast (0.1.0)
+
+DEPENDENCIES:
+  - EJToast (from `../`)
+
+EXTERNAL SOURCES:
+  EJToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EJToast: fca0cf237db9bf0a9450f9cec72e133813e758d4
+
+PODFILE CHECKSUM: fd8ae17ed92d67afc65b949e7fb18fa873697e17
+
+COCOAPODS: 1.8.4

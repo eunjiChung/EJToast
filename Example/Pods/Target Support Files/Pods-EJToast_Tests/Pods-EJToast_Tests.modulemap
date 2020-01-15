@@ -1,0 +1,6 @@
+framework module Pods_EJToast_Tests {
+  umbrella header "Pods-EJToast_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

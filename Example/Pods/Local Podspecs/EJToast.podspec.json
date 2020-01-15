@@ -1,0 +1,22 @@
+{
+  "name": "EJToast",
+  "version": "0.1.0",
+  "summary": "A short description of EJToast.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/emily chung/EJToast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "emily chung": "twih@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/emily chung/EJToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EJToast/Classes/**/*"
+}
