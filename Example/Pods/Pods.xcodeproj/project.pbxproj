@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E63AD9223CF14D900898757 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63AD9123CF14D900898757 /* ToastView.swift */; };
+		1EDDCA9723E7ED71005BA9EE /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDCA9623E7ED71005BA9EE /* ToastWindow.swift */; };
+		1EDDCA9923E80AF6005BA9EE /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDCA9823E80AF6005BA9EE /* ToastCenter.swift */; };
 		31324876ABB9EA9A2948DD48193ABC84 /* Pods-EJToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF58F1CF53B323E0B05DF4A55564BE4 /* Pods-EJToast_Tests-dummy.m */; };
 		4EFBEED8C1D3482771870402CF5F2CF2 /* EJToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2C8AF16DB651CFBA8A5448EBFC912D /* EJToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54026B94BCEDCCC5EE993B8619416167 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5ADDDA4CE9BA5080753DDA7A5E36CC20 /* Pods-EJToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 582D9D5F8F391DB710484706A5BD5C6C /* Pods-EJToast_Example-dummy.m */; };
 		5EDE68E42E87CDAA56C1242DD5E4F678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8EEB54E79B656256D2798705E9D00CAA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD71FCECC31DB19A1AD4C711810FAE18 /* ReplaceMe.swift */; };
+		8EEB54E79B656256D2798705E9D00CAA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD71FCECC31DB19A1AD4C711810FAE18 /* Toast.swift */; };
 		920F518D19CBAAA9B03DC0BED9F29189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A6BD787F626EDBE178BB211B4CB17B57 /* Pods-EJToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C243D38D241AD4CD279C19019EBBD512 /* Pods-EJToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B40EFBF487A2A14B20F0A4965AB1615A /* Pods-EJToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDC08F15DEF81E0D69DE7103915C4FE /* Pods-EJToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,34 +40,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0086B61E3997793C9AA1F6733D5514B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0086B61E3997793C9AA1F6733D5514B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0502C2BCD3634165166366BBB3DAE431 /* Pods-EJToast_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EJToast_Tests-Info.plist"; sourceTree = "<group>"; };
 		09C3B3242E7D938D4CC6082CFD934245 /* Pods-EJToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EJToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		15F0543FE1B23250D2B1FDC6EBE647B5 /* EJToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EJToast-prefix.pch"; sourceTree = "<group>"; };
 		1B09161DA23E23D40DC7991B6128665E /* Pods-EJToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EJToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E63AD9123CF14D900898757 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		1EDDCA9623E7ED71005BA9EE /* ToastWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastWindow.swift; sourceTree = "<group>"; };
+		1EDDCA9823E80AF6005BA9EE /* ToastCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastCenter.swift; sourceTree = "<group>"; };
 		208AE0D47CEFEC632A36E4FBF0606C83 /* EJToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EJToast-Info.plist"; sourceTree = "<group>"; };
 		27D5BB1802A9F81D2A0937FF7C45BF98 /* EJToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EJToast-dummy.m"; sourceTree = "<group>"; };
 		289DEB23945D532EE6106D399AF2F25C /* Pods-EJToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EJToast_Example.modulemap"; sourceTree = "<group>"; };
-		2A750148293FFBC91012F9901670AF50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A750148293FFBC91012F9901670AF50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34BAF1A5AB322194F747D86BF42C6B04 /* Pods-EJToast_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EJToast_Example-Info.plist"; sourceTree = "<group>"; };
-		45DE79ED3C3861922595A9EE5C1D59C7 /* EJToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EJToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45DE79ED3C3861922595A9EE5C1D59C7 /* EJToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EJToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4740F47CFDFF8C1281778B4D3EAD49B0 /* Pods-EJToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EJToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B62A2A0C156280123D5F1B3D41DBB2D /* Pods-EJToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EJToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4EDC08F15DEF81E0D69DE7103915C4FE /* Pods-EJToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EJToast_Example-umbrella.h"; sourceTree = "<group>"; };
 		582D9D5F8F391DB710484706A5BD5C6C /* Pods-EJToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EJToast_Example-dummy.m"; sourceTree = "<group>"; };
-		611750260FDEFFB08B7D87B7B65DAE9C /* Pods_EJToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EJToast_Example.framework; path = "Pods-EJToast_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		611750260FDEFFB08B7D87B7B65DAE9C /* Pods_EJToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EJToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		702426A591CE7CCBD98C113C4879123F /* EJToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EJToast.modulemap; sourceTree = "<group>"; };
 		779B9A8EBD63219BF5350D61E46330F6 /* Pods-EJToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EJToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8695C8349293237EA2ED8B6C56B1225E /* Pods_EJToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EJToast_Tests.framework; path = "Pods-EJToast_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8695C8349293237EA2ED8B6C56B1225E /* Pods_EJToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EJToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF58F1CF53B323E0B05DF4A55564BE4 /* Pods-EJToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EJToast_Tests-dummy.m"; sourceTree = "<group>"; };
 		8C3AD6BE70A0AFEF447AAA85A50C1E14 /* Pods-EJToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EJToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD71FCECC31DB19A1AD4C711810FAE18 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EJToast/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD71FCECC31DB19A1AD4C711810FAE18 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = EJToast/Classes/Toast.swift; sourceTree = "<group>"; };
 		C243D38D241AD4CD279C19019EBBD512 /* Pods-EJToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EJToast_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C8235DCB1175E05A0E63E1F9CC9C5993 /* EJToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EJToast.xcconfig; sourceTree = "<group>"; };
 		CF2C8AF16DB651CFBA8A5448EBFC912D /* EJToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EJToast-umbrella.h"; sourceTree = "<group>"; };
-		DE8847469B3B8093750170D51BA2D191 /* EJToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EJToast.framework; path = EJToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8847469B3B8093750170D51BA2D191 /* EJToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EJToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E835290AD69D78580EF10C2FA698D19E /* Pods-EJToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EJToast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E8ADD5B6D98B012E7B6681536AFE5FF7 /* Pods-EJToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EJToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E9E2BAF46B53B3DF4406149F1F703EFE /* Pods-EJToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJToast_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -120,9 +126,12 @@
 		56096EBF0F9FE74D73907DF3183943BA /* EJToast */ = {
 			isa = PBXGroup;
 			children = (
-				AD71FCECC31DB19A1AD4C711810FAE18 /* ReplaceMe.swift */,
+				AD71FCECC31DB19A1AD4C711810FAE18 /* Toast.swift */,
 				623A5AC6D6F660BBC42919EC72986C64 /* Pod */,
 				D82857E7E376A6DD21ECC4601900A333 /* Support Files */,
+				1E63AD9123CF14D900898757 /* ToastView.swift */,
+				1EDDCA9623E7ED71005BA9EE /* ToastWindow.swift */,
+				1EDDCA9823E80AF6005BA9EE /* ToastCenter.swift */,
 			);
 			name = EJToast;
 			path = ../..;
@@ -382,7 +391,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAEA39CC9D30229BC6CECB36A5B879B9 /* EJToast-dummy.m in Sources */,
-				8EEB54E79B656256D2798705E9D00CAA /* ReplaceMe.swift in Sources */,
+				1E63AD9223CF14D900898757 /* ToastView.swift in Sources */,
+				8EEB54E79B656256D2798705E9D00CAA /* Toast.swift in Sources */,
+				1EDDCA9923E80AF6005BA9EE /* ToastCenter.swift in Sources */,
+				1EDDCA9723E7ED71005BA9EE /* ToastWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,8 +566,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
